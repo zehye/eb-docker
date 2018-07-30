@@ -1,0 +1,5 @@
+FROM            eb-docker-new:base
+MAINTAINER      zehye.01@gmail.com
+
+
+COPY            .   /srv/project

@@ -1,0 +1,4 @@
+FROM            python:3.6.5-slim
+MAINTAINER      zehye.01@gamil.com
+
+RUN             apt -y update && apt -y dist-upgrade
